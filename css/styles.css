@@ -45,6 +45,14 @@ a {
     border-radius: 4px;
 }
 
+input, textarea {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 14px;
+    width: 100%;
+    font-size: 1em;
+}
+
 /* a:active {
     background-color: var(--naranja3);
     color: var(--blanco);
@@ -72,8 +80,7 @@ a:hover {
     border: none;
     padding: 8px 14px;
     border-radius: 4px;
-    
-    width: 120px;
+    width: 100%;
     color: var(--blanco);
     font-size: 1em;
     cursor: pointer;
@@ -82,7 +89,20 @@ a:hover {
 
 .btn1:hover {
     background-color: var(--naranja2);
-    border: solid 1px var(--naranja2);
+   
+}
+
+.btn2 {
+    background: none;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    width: 100%;
+    border: solid 2px var(--blanco);
+    color: var(--blanco);
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
 body {
@@ -164,12 +184,16 @@ main {
     margin-top: 80px;      
 }
 
-.portada-contenedor1 .btn2 {
+.portada-contenedor1 .btn1 {
     margin-right: 10px;
 }
 
 .portada-contenedor1 .frase-portada {
     font-size: 1.5em;
+}
+
+.portada-contenedor1 .botonera {
+    display: flex;
 }
 
 .portada-contenedor2 {
@@ -216,13 +240,28 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding:  0 20px 40px 20px;
+    padding:  0 20px 80px 20px;
 }
 
 .service .caja {
     border: solid 2px var(--naranja3);
     height: 300px;
     border-radius: 4px;
+}
+
+.contacto {
+    padding: 40px 20px;
+    background-color: var(--naranja3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
 }
 
 footer {
