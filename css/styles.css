@@ -121,7 +121,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--negro);
+    background-color: var(--gris-oscuro);
     color: var(--blanco);
     border-bottom: solid 2px var(--blanco) ;
 }
@@ -157,7 +157,7 @@ main {
     position: relative;
     width: 100%;
     height: calc(100vh - 60px);
-    background-color: var(--negro);
+    background-color: var(--gris-oscuro);
     position: relative;
     padding: 0 20px;
     gap: 20px;
@@ -269,7 +269,7 @@ main {
 }
 
 .contacto .otro {
-    border: solid 2px var(--naranja3);
+    border: solid 2px var(--gris-oscuro);
     width: 50%;
     height: 58vh;
 }
@@ -277,7 +277,7 @@ main {
 footer {
     margin-top: 80px;
     height: 50vh;
-    background-color: var(--negro);
+    background-color: var(--gris-oscuro);
     position: relative;
     padding: 40px 20px;
 }
