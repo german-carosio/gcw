@@ -9,7 +9,7 @@
 
 :root {
     
-    --naranja: #fe7240;
+    --naranja: #fab69d;
     --naranja2: #ff6700;
     --naranja3: #e05c04;
     --naranja4: #fd830d;
@@ -71,7 +71,7 @@ a:hover {
     border: none;
     padding: 8px 14px;
     border-radius: 4px;
-    border: solid 1px var(--blanco);
+    border: solid 2px var(--blanco);
     width: 120px;
     color: var(--blanco);
     font-size: 1em;
@@ -121,9 +121,7 @@ header {
 main {
     width: 100vw;
     max-width: 1400px;
-    
     margin: 0 auto;
-    
 }
 
 
@@ -157,13 +155,17 @@ main {
     width: 50%;
     gap: 40px;
     padding: 40px 40px;
-    
+    color: var(--blanco);
     border-radius: 10px;  
     margin-top: 80px;      
 }
 
 .portada-contenedor1 .btn2 {
     margin-right: 10px;
+}
+
+.portada-contenedor1 .frase-portada {
+    font-size: 1.5em;
 }
 
 .portada-contenedor2 {
@@ -180,23 +182,60 @@ main {
 }
 
 .portada-contenedor2 img {
-    width: 70%;
+    width: 60%;
 }
 
 /*About*/
 
 .about {
+    padding: 20px 20px 20px 20px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-txt {
+    width: 75%;
+}
+
+.about-img{
+    width: 25%;
+}
+
+.about-img img {
+    width: 100%;
+}
+/*Service*/
+
+.service {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
 }
 
-.about .caja {
+.service .caja {
     border: solid 2px var(--naranja3);
     height: 300px;
     border-radius: 4px;
 }
+
+footer {
+    height: 50vh;
+    background-color: var(--negro);
+    position: relative;
+    padding: 20px 20px 20px 20px;
+}
+
+/* footer svg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
 
 
 
