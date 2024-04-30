@@ -220,7 +220,7 @@ main {
     display:flex ;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
     background-color: var(--gris-oscuro);
     color: var(--blanco);
 }
@@ -263,15 +263,24 @@ main {
 
 .contacto form {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
     width: 50%;
+    height: 70vh;
 }
 
 .contacto .otro {
-    border: solid 2px var(--gris-oscuro);
+   background-color: var(--gris-oscuro);
     width: 50%;
-    height: 58vh;
+    height: 70vh;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+    padding: 25px;
 }
 
 footer {
@@ -282,12 +291,7 @@ footer {
     padding: 40px 20px;
 }
 
-/* footer svg {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
+
 
 
 
