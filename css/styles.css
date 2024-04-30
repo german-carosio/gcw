@@ -124,6 +124,10 @@ header {
     background-color: var(--gris-oscuro);
     color: var(--blanco);
     border-bottom: solid 2px var(--blanco) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 
@@ -274,7 +278,7 @@ main {
 .contacto .otro {
    background-color: var(--gris-oscuro);
     width: 50%;
-    height: 70vh;
+    height: 65vh;
     border-radius: 4px;
     display: flex;
     justify-content: center;
